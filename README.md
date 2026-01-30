@@ -1,4 +1,4 @@
-# zbx-to-nexcloud-talk
+# zbx-to-nextcloud-talk
 
 This script is used to send Zabbix alerts to Nextcloud Talk.
 
