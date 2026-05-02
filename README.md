@@ -40,3 +40,7 @@ The following variables should be passed to the script as parameters in the Zabb
 | trigger_description | Trigger description | `{TRIGGER.DESCRIPTION}` |
 | trigger_id | Trigger ID | `{TRIGGER.ID}` |
 | zabbix_url | Zabbix frontend URL | `{$ZABBIX.URL}` |
+
+## Example
+
+![Zabbix triggered message in Nextcloud Talk](./example.png)
