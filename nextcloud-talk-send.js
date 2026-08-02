@@ -310,7 +310,7 @@ try {
     var nextcloud_talk_endpoint = params.nextcloud_talk_endpoint;
 
     var NextcloudTalk = {
-        postMessage: nextcloud_talk_endpoint + 'send'
+        postMessage: nextcloud_talk_endpoint + encodeURIComponent(params.channel)
     };
 
     params.nextcloud_talk_mode = params.nextcloud_talk_mode.toLowerCase();
